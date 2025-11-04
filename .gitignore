@@ -1,0 +1,46 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Node / npm junk (if you ever use it later)
+node_modules/
+npm-debug.log*
+
+# Python / virtual env (for scripts)
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+ENV/
+env/
+
+# Logs
+*.log
+*.out
+*.tmp
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS / Backup files
+Thumbs.db
+Desktop.ini
+*.bak
+*.old
+
+# Git temporary merge files
+*.orig
+
+# Temp test files
+test-output/
+tmp/
