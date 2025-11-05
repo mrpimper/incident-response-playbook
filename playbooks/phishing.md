@@ -1,6 +1,6 @@
 # Phishing Playbook
 
-status: draft
+Status: draft
 
 **Purpose / scope:**  
 Simple steps to triage and respond to suspected phishing that may involve credential theft or malicious attachments/links. Designed for my practice lab and small-team environments.
