@@ -1,46 +1,84 @@
-# macOS system files
+
+# macOS and system junk
+
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
+Thumbs.db
+Desktop.ini
+---
 
 # Thumbnails
-._*
 
-# Node / npm junk (if you ever use it later)
+._*
+---
+
+# Node / JS dependencies
+
 node_modules/
 npm-debug.log*
+---
 
-# Python / virtual env (for scripts)
+# Python / virtual environments (for scripts)
+
 __pycache__/
 *.py[cod]
-*.egg
 *.egg-info/
 dist/
 build/
 venv/
 ENV/
 env/
+---
 
 # Logs
+
 *.log
 *.out
 *.tmp
+---
 
 # IDE / Editor specific
+
 .vscode/
 .idea/
 *.swp
 *~
+---
 
 # OS / Backup files
+
 Thumbs.db
 Desktop.ini
 *.bak
 *.old
+---
 
-# Git temporary merge files
-*.orig
+# Miscellaneous
+
+*.out
+*.retry
+*.ori
+---
 
 # Temp test files
+
 test-output/
 tmp/
+---
+
+# Evidence & sensitive artifacts
+
+*.pcap
+*.pcapng
+*.eml
+*.pst
+*.dmp
+*.raw
+*.img
+*.vmdk
+*.zip
+*.7z
+*.tar.gz
+---
